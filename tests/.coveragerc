@@ -1,13 +1,12 @@
-[run]
-source = .
-branch = True
-omit =
-    tests/*
-    test/*
-    pairwise_check.py
-
-[report]
-show_missing = True
-
-[html]
+[run] 
+source = . 
+branch = True 
+omit = 
+    tests/* 
+    pairwise_check.py 
+  
+[report] 
+show_missing = True 
+  
+[html] 
 directory = htmlcov
